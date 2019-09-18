@@ -1,12 +1,19 @@
 import React from "react";
 
-import experiencias from "./components/experiencias";
-import idiomas from "./components/idiomas";
-import infoPessoais from "./components/infoPessoais";
-import skills from "./components/skills";
+import Experiencias from "./components/Experiencias";
+import Idiomas from "./components/idiomas";
+import InfoPessoais from "./components/infoPessoais";
+import Skills from "./components/skills";
 
 function App() {
-  return <h1>teste</h1>;
+  return (
+    <>
+      <InfoPessoais />
+      <Skills />
+      <Experiencias />
+      <Idiomas />
+    </>
+  );
 }
 
 export default App;
